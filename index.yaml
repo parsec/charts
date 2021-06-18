@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   bytebot-party-pack:
   - apiVersion: v2
+    appVersion: latest
+    created: "2021-06-17T20:37:21.805064485-04:00"
+    description: Bytebot party pack
+    digest: 6daa3b1f7114bf0a800f4219a912357faa1af2ea4899ba8b8b5a0d93a56fb728
+    name: bytebot-party-pack
+    type: application
+    urls:
+    - https://parsec.github.io/charts/bytebot-party-pack-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
     appVersion: 0.0.0
-    created: "2021-06-11T00:44:09.6566524-04:00"
+    created: "2021-06-17T20:37:21.804739924-04:00"
     description: Microservice party pack for bytebot (or anything that consumes pub/sub,
       really)
     digest: 0986551275eec962f442cff8bc2f3255339007b2cdc27a5b0dda760e2884bf19
@@ -12,4 +22,4 @@ entries:
     urls:
     - https://parsec.github.io/charts/bytebot-party-pack-0.0.1.tgz
     version: 0.0.1
-generated: "2021-06-11T00:44:09.6515302-04:00"
+generated: "2021-06-17T20:37:21.804052694-04:00"
