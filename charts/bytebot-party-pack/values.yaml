@@ -15,12 +15,8 @@ nameOverride: ""
 fullnameOverride: ""
 
 config:
-  inbound:
-    irc: 
-     - "irc-inbound"
-  outbound:
-    irc:
-      - "irc-outbound"
+  irc-inbound: "irc-inbound"
+  irc-outbound: "irc-outbound"
   redis: "redis:6379"
 
 serviceAccount:
