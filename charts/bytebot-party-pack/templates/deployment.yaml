@@ -33,8 +33,12 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           args:
             - "-redis={{ .Values.config.redis }}"
-            - "-inbound={{ .Values.config.inbound }}"
-            - "-outbound={{ .Values.config.outbound }}"
+            {{- with .Values.config.inbound.irc }}
+            "-irc-inbound={{- . | nindent 12 }}"
+            {{- end }}
+            {{- with .Values.config.outbound.irc }}
+            "-irc-outbound={{- . | nindent 12 }}"
+            {{- end }}
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
