@@ -3,7 +3,17 @@ entries:
   bytebot-party-pack:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-06-29T03:34:21.886074-04:00"
+    created: "2021-06-29T04:02:09.6699995-04:00"
+    description: Bytebot party pack
+    digest: 1a1c5e6d79ec6cd33ae4e606ed16442214884973a23a82d29246c1417b592b1e
+    name: bytebot-party-pack
+    type: application
+    urls:
+    - https://parsec.github.io/charts/bytebot-party-pack-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2021-06-29T04:02:09.6664509-04:00"
     description: Bytebot party pack
     digest: 796f90166048a550203228ead00e732aa79e6bc6ddc9c1d93e93ce519591fcbe
     name: bytebot-party-pack
@@ -13,7 +23,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-06-29T03:34:21.8819357-04:00"
+    created: "2021-06-29T04:02:09.6626325-04:00"
     description: Bytebot party pack
     digest: 2d905eaa230d4362479a4da4c34c46818c41a7aea35ba2adafcefe30d22207d2
     name: bytebot-party-pack
@@ -23,7 +33,7 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: latest
-    created: "2021-06-29T03:34:21.8782282-04:00"
+    created: "2021-06-29T04:02:09.6588088-04:00"
     description: Bytebot party pack
     digest: 1a770fc269ef5112767112c95f198c8d70eadf84df623f752e3b563639299576
     name: bytebot-party-pack
@@ -33,7 +43,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: latest
-    created: "2021-06-29T03:34:21.8744688-04:00"
+    created: "2021-06-29T04:02:09.6541816-04:00"
     description: Bytebot party pack
     digest: 6daa3b1f7114bf0a800f4219a912357faa1af2ea4899ba8b8b5a0d93a56fb728
     name: bytebot-party-pack
@@ -43,7 +53,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2021-06-29T03:34:21.870069-04:00"
+    created: "2021-06-29T04:02:09.6502852-04:00"
     description: Microservice party pack for bytebot (or anything that consumes pub/sub,
       really)
     digest: 0986551275eec962f442cff8bc2f3255339007b2cdc27a5b0dda760e2884bf19
@@ -52,4 +62,4 @@ entries:
     urls:
     - https://parsec.github.io/charts/bytebot-party-pack-0.0.1.tgz
     version: 0.0.1
-generated: "2021-06-29T03:34:21.8648573-04:00"
+generated: "2021-06-29T04:02:09.6462243-04:00"
