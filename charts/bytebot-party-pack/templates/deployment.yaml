@@ -34,10 +34,10 @@ spec:
           args:
             - "-redis={{ .Values.config.redis }}"
             {{- with .Values.config.inbound.irc }}
-            "-irc-inbound={{- . | nindent 12 }}"
+            "-irc-inbound={{- . }}"
             {{- end }}
             {{- with .Values.config.outbound.irc }}
-            "-irc-outbound={{- . | nindent 12 }}"
+            "-irc-outbound={{- . }}"
             {{- end }}
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
